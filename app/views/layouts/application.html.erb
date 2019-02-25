@@ -7,9 +7,12 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
   </head>
 
   <body>
     <%= yield %>
+      <button type="button" class="btn btn-primary">Ask!</button>
   </body>
 </html>
